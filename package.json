@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap_custom_builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass custom.scss _build_css/bootstrap.css",
+    "minify": "sass --style=compressed custom.scss _build_css/bootstrap.min.css",
+    "sass:version": "sass --version"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}
